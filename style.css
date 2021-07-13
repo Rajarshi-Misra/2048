@@ -1,0 +1,47 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+    height: 360px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.grid div{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    font-size:50px;
+    font-weight: bold;
+    text-align: center;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.score-container{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 60px;
+}
+.result{
+        color: rgb(126, 26, 26);
+        font-weight: bold;
+        font-size: 200px;
+        margin-top: 60px;
+}
+body{
+    background-color: rgb(224, 221, 217);
+}
+.digits{
+    color:crimson;
+    font-size: 250px;
+    font-weight: bold;
+    transform: rotate(30deg);
+    position: absolute;
+    top: 10px;
+    left: 700px;
+    z-index: -5;
+}
